@@ -13,4 +13,7 @@ export const LOGO =
     }
   };
   export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+  export const SUPPORTED_LANGUAGES= [{identifier:"en",name:"English"},
+  {identifier:"hindi",name:"Hindi"},{identifier:"spanish",name:"Spanish"}];
+  export const OPEN_AI_KEY ="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";
   
