@@ -12,3 +12,5 @@ export const LOGO =
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMDFjNGI2NmI5MzE3MTg0MWM3MTZhOTZjN2QzMzgwOSIsInN1YiI6IjY1MTdkODFjOTY3Y2M3MDBlMjljYjA4YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.qNkSvE3JfspOpyhAzYY324JrFzgsXjNaj4FGOyMLtV4'
     }
   };
+  export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+  
