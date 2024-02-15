@@ -9,11 +9,11 @@ export const LOGO =
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMDFjNGI2NmI5MzE3MTg0MWM3MTZhOTZjN2QzMzgwOSIsInN1YiI6IjY1MTdkODFjOTY3Y2M3MDBlMjljYjA4YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.qNkSvE3JfspOpyhAzYY324JrFzgsXjNaj4FGOyMLtV4'
-    }
+      Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMDFjNGI2NmI5MzE3MTg0MWM3MTZhOTZjN2QzMzgwOSIsInN1YiI6IjY1MTdkODFjOTY3Y2M3MDBlMjljYjA4YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.qNkSvE3JfspOpyhAzYY324JrFzgsXjNaj4FGOyMLtV4"
+    },
   };
   export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
   export const SUPPORTED_LANGUAGES= [{identifier:"en",name:"English"},
   {identifier:"hindi",name:"Hindi"},{identifier:"spanish",name:"Spanish"}];
-  export const OPEN_AI_KEY ="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";
+  export const OPEN_AI_KEY = process.env.REACT_APP_OPENAI_KEY;
   
